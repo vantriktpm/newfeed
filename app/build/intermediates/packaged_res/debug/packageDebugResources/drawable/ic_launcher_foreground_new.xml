@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Logo LeeuLeu sẽ được đặt ở center với padding -->
+    <group
+        android:translateX="27"
+        android:translateY="27">
+        <!-- Đặt logo ở đây - bạn sẽ dùng ic_logo_app.png -->
+    </group>
+</vector>
+

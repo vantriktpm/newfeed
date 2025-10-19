@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.newfeed.app.presentation.comments.CommentsViewModel

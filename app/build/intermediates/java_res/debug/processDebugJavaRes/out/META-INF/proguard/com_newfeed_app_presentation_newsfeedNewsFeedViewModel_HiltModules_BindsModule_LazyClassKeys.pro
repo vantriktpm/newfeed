@@ -1,0 +1,5 @@
+-keep,allowobfuscation,allowshrinking class com.newfeed.app.presentation.comments.CommentsViewModel
+-keep,allowobfuscation,allowshrinking class com.newfeed.app.presentation.comments.CommentsViewModel
+-keep,allowobfuscation,allowshrinking class com.newfeed.app.presentation.createpost.CreatePostViewModel
+-keep,allowobfuscation,allowshrinking class com.newfeed.app.presentation.createpost.CreatePostViewModel
+-keep,allowobfuscation,allowshrinking class com.newfeed.app.presentation.newsfeed.NewsFeedViewModel

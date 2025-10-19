@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="facebook_blue">#1877F2</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="about">About</string>
+    <string name="add_to_story">Add to Story</string>
+    <string name="app_name">Newsfeed</string>
+    <string name="comment">Comment</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="feeling_activity">Feeling/Activity</string>
+    <string name="friends">Friends</string>
+    <string name="like">Like</string>
+    <string name="menu">Menu</string>
+    <string name="news_feed">News Feed</string>
+    <string name="notifications">Notifications</string>
+    <string name="photo_video">Photo/Video</string>
+    <string name="photos">Photos</string>
+    <string name="post">Post</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="videos">Videos</string>
+    <string name="whats_on_your_mind">What\'s on your mind?</string>
+    <string name="write_a_comment">Write a comment...</string>
+    <style name="Theme.Newsfeed" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
