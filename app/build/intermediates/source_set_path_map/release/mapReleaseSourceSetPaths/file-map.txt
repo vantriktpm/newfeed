@@ -43,6 +43,7 @@ com.newfeed.app-lifecycle-livedata-core-2.9.4-41 C:\Users\Admin\.gradle\caches\8
 com.newfeed.app-resValues-42 E:\1.Project\2.Android\Newfeed\app\build\generated\res\resValues\release
 com.newfeed.app-packageReleaseResources-43 E:\1.Project\2.Android\Newfeed\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
 com.newfeed.app-packageReleaseResources-44 E:\1.Project\2.Android\Newfeed\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
-com.newfeed.app-release-45 E:\1.Project\2.Android\Newfeed\app\build\intermediates\merged_res\release\mergeReleaseResources
-com.newfeed.app-main-46 E:\1.Project\2.Android\Newfeed\app\src\main\res
-com.newfeed.app-release-47 E:\1.Project\2.Android\Newfeed\app\src\release\res
+com.newfeed.app-merged-not-compiled-resources-45 E:\1.Project\2.Android\Newfeed\app\build\intermediates\merged-not-compiled-resources\release
+com.newfeed.app-release-46 E:\1.Project\2.Android\Newfeed\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.newfeed.app-main-47 E:\1.Project\2.Android\Newfeed\app\src\main\res
+com.newfeed.app-release-48 E:\1.Project\2.Android\Newfeed\app\src\release\res

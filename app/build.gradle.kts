@@ -11,11 +11,12 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.newfeed.app"
+        // NOTE: `applicationId` must be unique on Google Play. Keep `namespace` as-is to avoid refactoring packages.
+        applicationId = "com.newfeed.app.new"
         minSdk = 24
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.0.0"
+        versionCode = 5
+        versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -25,7 +26,19 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            // Enables code-related app optimization.
+            isMinifyEnabled = true
+
+            // Enables resource shrinking.
+            isShrinkResources = true
+
+            // Generate native debug symbols for Play Console (crash/ANR symbolication).
+            // - "SYMBOL_TABLE": smaller upload, good default
+            // - "FULL": best symbolication, larger
+            ndk {
+                debugSymbolLevel = "SYMBOL_TABLE"
+            }
+
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -45,6 +58,11 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+        jniLibs {
+            // Prevent Gradle from stripping native libraries so symbol tables can be extracted/uploaded.
+            // If you want to limit this, replace with e.g. "**/libandroidx.graphics.path.so"
+            keepDebugSymbols += setOf("**/*.so")
         }
     }
 }
@@ -94,4 +112,29 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+}
+
+// Creates a ZIP you can upload to Google Play Console as "Native debug symbols".
+// Note: If a dependency ships stripped .so files, symbolication may still be limited,
+// but uploading this ZIP will satisfy Play's "missing debug symbols" warning and can help in some cases.
+tasks.register<Zip>("exportPlayNativeDebugSymbols") {
+    dependsOn("bundleRelease")
+
+    val aab = layout.buildDirectory.file("outputs/bundle/release/app-release.aab")
+
+    from(zipTree(aab)) {
+        include("base/lib/**")
+        includeEmptyDirs = false
+
+        // Convert paths from "base/lib/..." to "lib/..." as expected by Play.
+        eachFile {
+            val segs = relativePath.segments
+            if (segs.isNotEmpty() && segs[0] == "base") {
+                relativePath = RelativePath(true, *segs.drop(1).toTypedArray())
+            }
+        }
+    }
+
+    archiveFileName.set("native-debug-symbols.zip")
+    destinationDirectory.set(rootProject.layout.projectDirectory.dir("play-console"))
 }

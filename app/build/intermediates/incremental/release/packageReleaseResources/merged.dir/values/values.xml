@@ -2,6 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="facebook_blue">#1877F2</color>
+    <color name="ic_launcher_background">#2F80ED</color>
+    <color name="launcher_line_blue">#B9DBFF</color>
+    <color name="launcher_pale_yellow">#FFE7A3</color>
+    <color name="launcher_sky_blue">#2F80ED</color>
+    <color name="launcher_violet">#7B61FF</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>

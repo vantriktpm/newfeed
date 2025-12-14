@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.newfeed.app"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+3    package="com.newfeed.app.new"
+4    android:versionCode="5"
+5    android:versionName="1.0.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
@@ -17,12 +17,12 @@
 13
 14    <permission
 14-->[androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
-15        android:name="com.newfeed.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15        android:name="com.newfeed.app.new.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 15-->[androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
 16-->[androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
 17
-18    <uses-permission android:name="com.newfeed.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18    <uses-permission android:name="com.newfeed.app.new.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 18-->[androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
 18-->[androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 19
@@ -35,12 +35,12 @@
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 24        android:extractNativeLibs="false"
-25        android:icon="@drawable/ic_logo_app"
-25-->E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:10:9-45
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:10:9-43
 26        android:label="@string/app_name"
 26-->E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:11:9-41
-27        android:roundIcon="@drawable/ic_logo_app"
-27-->E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:12:9-50
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:12:9-54
 28        android:supportsRtl="true"
 28-->E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:13:9-35
 29        android:theme="@style/Theme.Newsfeed" >
@@ -69,7 +69,7 @@
 41-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\8f86a62e4756e5a88133731d7b96de56\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
 42            android:name="androidx.startup.InitializationProvider"
 42-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\8f86a62e4756e5a88133731d7b96de56\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
-43            android:authorities="com.newfeed.app.androidx-startup"
+43            android:authorities="com.newfeed.app.new.androidx-startup"
 43-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\8f86a62e4756e5a88133731d7b96de56\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
 44            android:exported="false" >
 44-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\8f86a62e4756e5a88133731d7b96de56\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37

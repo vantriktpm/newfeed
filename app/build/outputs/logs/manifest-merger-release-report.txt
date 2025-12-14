@@ -121,9 +121,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ad
 	android:label
 		ADDED from E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:12:9-50
+		ADDED from E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:10:9-45
+		ADDED from E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
 		ADDED from E:\1.Project\2.Android\Newfeed\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
@@ -336,7 +336,7 @@ ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\tran
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
-permission#com.newfeed.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.newfeed.app.new.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
@@ -346,7 +346,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
-uses-permission#com.newfeed.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.newfeed.app.new.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\a60037c4f46079284aac15f6188ce3eb\transformed\core-1.17.0\AndroidManifest.xml:26:22-94

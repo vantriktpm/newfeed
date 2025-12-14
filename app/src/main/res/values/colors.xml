@@ -8,6 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="facebook_blue">#1877F2</color>
-    <color name="ic_launcher_background">#FFFFFF</color>
+    <!-- Launcher icon palette -->
+    <color name="launcher_sky_blue">#2F80ED</color>
+    <color name="launcher_violet">#7B61FF</color>
+    <color name="launcher_pale_yellow">#FFE7A3</color>
+    <color name="launcher_line_blue">#B9DBFF</color>
+    <color name="ic_launcher_background">#2F80ED</color>
 </resources>
 
